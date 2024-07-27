@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    background-image:  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M1418.85 73.84 a19.55 19.55 0 1 0 39.1 0 a19.55 19.55 0 1 0 -39.1 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M768.12 537 a47.25 47.25 0 1 0 94.5 0 a47.25 47.25 0 1 0 -94.5 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M143.08 160.71a11.41 11.41 0 1 0-18.01-14.02z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M949.89 271.72 a53.17 53.17 0 1 0 106.34 0 a53.17 53.17 0 1 0 -106.34 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M407.67 432.12L444.01 432.12L444.01 454.24L407.67 454.24z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M304.61 314.7 a40.02 40.02 0 1 0 80.04 0 a40.02 40.02 0 1 0 -80.04 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M881.3 265.87L892.72 265.87L892.72 278.1L881.3 278.1z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M87.34 445.63a55.43 55.43 0 1 0-78.33 78.45z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1241.5 135.51L1284 135.51L1284 178.4L1241.5 178.4z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1079.38 539.48L1091.46 539.48L1091.46 579.82L1079.38 579.82z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M809.44 350.56L830.6 350.56L830.6 395.71L809.44 395.71z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M200.48 184.72a20.77 20.77 0 1 0-14.24 39.02z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1182.55 211.36a28.04 28.04 0 1 0-46.1-31.94z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M133.85 329.47a11.42 11.42 0 1 0 21.78 6.89z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1065.32 148.44 a52.93 52.93 0 1 0 105.86 0 a52.93 52.93 0 1 0 -105.86 0z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M760.27 494.47 a20.6 20.6 0 1 0 41.2 0 a20.6 20.6 0 1 0 -41.2 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M57.71 214.22a11.81 11.81 0 1 0-14.03-19z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M479.03 512.77L486.53 512.77L486.53 529.97L479.03 529.97z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M558.83 509.46L603.62 509.46L603.62 554.25L558.83 554.25z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1126.04 0.35L1141.07 0.35L1141.07 15.38L1126.04 15.38z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1356.87 422.15 a36.36 36.36 0 1 0 72.72 0 a36.36 36.36 0 1 0 -72.72 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M551.34 39.52a54.88 54.88 0 1 0 50.18 97.62z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1321 185.44a4.78 4.78 0 1 0-9.56-0.11z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M246.51 263.1a13.61 13.61 0 1 0-21.85 16.23z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M230.56 140.28L280.95 140.28L280.95 140.7L230.56 140.7z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1346.89 413.47L1351.08 413.47L1351.08 464.43L1346.89 464.43z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1024.19 260.88L1052.69 260.88L1052.69 289.38L1024.19 289.38z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M552.49 459.46L562.72 459.46L562.72 498.74L552.49 498.74z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M606.83 406.84 a21.57 21.57 0 1 0 43.14 0 a21.57 21.57 0 1 0 -43.14 0z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M455.39 460.69L496.73 460.69L496.73 505.24L455.39 505.24z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M669.6 535.04L708.84 535.04L708.84 574.28L669.6 574.28z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1017.47 384.78 a55.09 55.09 0 1 0 110.18 0 a55.09 55.09 0 1 0 -110.18 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M924.18 209.17L951.2 209.17L951.2 212.2L924.18 212.2z' stroke='%23d3b714'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+
+
+}
+h1{
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    text-shadow: 3px 4px 10px  rgba(22, 21, 21, 0.521);
+
+}
+textarea{
+    width: 300px;
+    height: 100px;
+    margin: 25px 0;
+    box-shadow: 5px 6px 10px black;
+    border: none;
+    outline: none;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
